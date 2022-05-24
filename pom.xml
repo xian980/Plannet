@@ -54,6 +54,12 @@
     		<artifactId>tomcat-embed-jasper</artifactId> 
     		<scope>provided</scope> 
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.heroku/webapp-runner-main -->
+	<dependency>
+    	<groupId>com.heroku</groupId>
+    	<artifactId>webapp-runner-main</artifactId>
+    	<version>9.0.52.1</version>
+	</dependency>
 	
 	</dependencies>
 

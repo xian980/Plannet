@@ -24,9 +24,9 @@ public class TestController {
 	}
 	
 	//회원가입 폼
-	@RequestMapping(value = "/signup", method = RequestMethod.GET)
+	@RequestMapping(value = "/signup1", method = RequestMethod.GET)
 	public String signUp() {
-		return "signup";
+		return "signup1";
 	}
 
 	//회원가입 진행
@@ -61,10 +61,24 @@ public class TestController {
 			return "redirect:/main";
 		
 		}
+	
+	//아이디 찾기
+	@RequestMapping(value = "/findid", method = RequestMethod.GET)
+	public String findId() {
+		return "findid";
+	}
+	//비밀번호찾기
+	@RequestMapping(value = "/findpass", method = RequestMethod.GET)
+	public String findPass() {
+		return "findpass";
+	}
+	
 		// F6: 1 라인 전진, F8: 다음 브레이크 포인트로 건너뛰기
 		// F9: 메서드 안쪽으로 들어가기
 			
 	}
+
+
 	
 	//로그아웃 처리
 	/*

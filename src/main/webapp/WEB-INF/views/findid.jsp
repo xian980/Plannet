@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Krub:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="findid.css" />
+    <link rel="stylesheet" href="css/findid.css" />
   </head>
   <body>
     <div class="container">
