@@ -41,7 +41,7 @@
         <button class="btn" value="BACK" onClick="history.go(-1)">
           돌아가기
         </button>
-        <button class="btn" onclick="location.href='change_pass.html'">
+        <button class="btn" onclick="location.href='change_pass'">
           다음
         </button>
       </div>

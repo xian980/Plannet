@@ -48,7 +48,7 @@
         <button class="btn" value="BACK" onClick="history.go(-1)">
           돌아가기
         </button>
-        <button class="btn">회원가입</button>
+        <button class="btn"onclick="location.href='index';">회원가입</button>
       </div>
     </div>
     <script src="login.js"></script>

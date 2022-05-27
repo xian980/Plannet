@@ -25,7 +25,7 @@
         <input class="info-item pass" type="text" placeholder="비밀번호" />
       </div>
       <div>
-        <button class="login-btn">로그인</button>
+        <button class="login-btn" onclick="location.href='main';"> 로그인</button>
       </div>
       <div class="footer">
         <a class="page-link" href="signup1">회원가입</a>
